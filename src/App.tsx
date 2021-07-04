@@ -1,13 +1,15 @@
 import React from 'react';
 import TitleComponent from './component/TitleComponent';
-import './App.css';
 import ListComponent from './component/ListComponent';
+import ContentsAreaComponent from './component/ContentsAreaComponent';
+import './style//App.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="a-app">
       <TitleComponent></TitleComponent>
       <ListComponent></ListComponent>
+      <ContentsAreaComponent></ContentsAreaComponent>
     </div>
   );
 }
