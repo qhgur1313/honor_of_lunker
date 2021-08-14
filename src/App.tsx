@@ -1,15 +1,15 @@
-import React from 'react';
-import TitleComponent from './component/TitleComponent';
-import ListComponent from './component/ListComponent';
-import ContentsAreaComponent from './component/ContentsAreaComponent';
-import './style//App.scss';
+import React from "react";
+import TitleComponent from "./component/TitleComponent";
+import ListChangeButtonComponent from "./component/ListChangeButtonComponent";
+import ContentsAreaComponent from "./component/ContentsAreaComponent";
+import "./style/App.scss";
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="a-app">
-      <TitleComponent></TitleComponent>
-      <ListComponent></ListComponent>
-      <ContentsAreaComponent></ContentsAreaComponent>
+      <TitleComponent />
+      <ListChangeButtonComponent />
+      <ContentsAreaComponent />
     </div>
   );
 }
